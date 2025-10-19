@@ -91,7 +91,7 @@
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
 | [**Fraud Detection System**](https://github.com/Mariam123-Git/FraudDetection) | Anomaly detection on 284K+ transactions using Machine Learning | Python, Scikit-learn, Pandas |
-| [**Event Management App**](https://github.com/Mariam123-Git/Event) | Full-stack management system with modular design patterns | Java, MySQL |
+| [**Event Management App**](https://github.com/Mariam123-Git/application) | Full-stack management system with modular design patterns | Java, MySQL |
 | [**2D Game Engine**](https://github.com/Mariam123-Git/Jeu_Mario) | Object-oriented game engine with collision and level management | Java |
 | [**Web App (React)**](https://github.com/Mariam123-Git/mon-projet) | Responsive SPA with advanced filtering and reusable components | React, JavaScript |
 
