@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/github-header-banner.png" alt="Mariam Koné Banner" width="100%">
+</p>
 <h1 align="center">Hi 👋, I'm Mariam KONÉ</h1>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
