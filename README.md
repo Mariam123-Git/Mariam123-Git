@@ -51,16 +51,17 @@
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--               📍 LOCATION & STATUS BADGES                  -->
-<!-- ═══════════════════════════════════════════════════════════
+<!-- ═══════════════════════════════════════════════════════════-->
 
 <p align="center">
+<!--               📍 LOCATION & STATUS BADGES               
   <img src="https://img.shields.io/badge/📍%20Brest%2C%20France-informational?style=flat-square&color=2ea44f" />
   &nbsp;
-  <img src="https://img.shields.io/badge/🇲🇱%20Origin%20--%20Mali-informational?style=flat-square&color=e4a400" />
+  <img src="https://img.shields.io/badge/🇲🇱%20Origin%20--%20Mali-informational?style=flat-square&color=e4a400" />   -->
   &nbsp;
-  <img src="https://img.shields.io/badge/🟢%20Open%20to%20Internship-available?style=flat-square&color=1abc9c" />
+  <img src="https://img.shields.io/badge/🟢%20Open%20to%20Job-available?style=flat-square&color=1abc9c" />
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=👁️%20Profile%20Views&color=0e75b6&style=flat-square" /> -->
+  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=👁️%20Profile%20Views&color=0e75b6&style=flat-square" /> 
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
