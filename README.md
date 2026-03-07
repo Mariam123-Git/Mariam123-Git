@@ -1,26 +1,76 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/github-header-banner.png" alt="Mariam Koné Banner" width="100%">
-</p>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                      🌊 ANIMATED HEADER                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hi, I'm Mariam KONÉ
-</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mariam%20KON%C3%89&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%26%20Cloud%20Enthusiast&descAlignY=60&descSize=18" width="100%"/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=500&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
-</p>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    👋 GREETING + AVATAR                     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=Profile%20views&color=0e75b6&style=flat" alt="Mariam123-Git" />
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   &nbsp;
+  <strong style="font-size:1.4em;">Welcome to my GitHub Profile!</strong>
+  &nbsp;
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   🖊️ ANIMATED TYPING                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=👩🏽‍💻+Software+Engineering+Student;🤖+AI+%26+Cloud+Enthusiast;⚡+Full-Stack+Developer;🌍+Based+in+Brest%2C+France;🔍+Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   🔗 SOCIAL BADGES                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
   <a href="https://linkedin.com/in/mariam-kone-bb2162287" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Mariam%20Koné-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
   <a href="mailto:mkone9489@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-mkone9489-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Mariam123-Git" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Mariam123--Git-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--               📍 LOCATION & STATUS BADGES                  -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/📍%20Brest%2C%20France-informational?style=flat-square&color=2ea44f" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🇲🇱%20Origin%20--%20Mali-informational?style=flat-square&color=e4a400" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🟢%20Open%20to%20Internship-available?style=flat-square&color=1abc9c" />
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=👁️%20Profile%20Views&color=0e75b6&style=flat-square" />
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--              🌐 SNAKE CONTRIBUTION ANIMATION               -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)"
+            srcset="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<br/>
 
 ---
 
@@ -111,12 +161,12 @@
 
 <br/>
 
-<!-- 🏆 Trophies 
+<!-- 🏆 Trophies -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Mariam123-Git&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="Mariam Koné trophies" />
 </p>
 
-<br/>-->
+<br/>
 
 <!-- 📈 Stats + Languages side by side -->
 <p align="center">
