@@ -1,22 +1,32 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/github-header-banner.png" alt="Mariam Koné Banner" width="100%">
 </p>
-<h1 align="center">Hi 👋, I'm Mariam KONÉ</h1>
+
+<h1 align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hi, I'm Mariam KONÉ
+</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=500&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=Profile%20views&color=0e75b6&style=flat" alt="Mariam123-Git" />
-  <a href="https://linkedin.com/in/mariam-kone-bb2162287" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue" /></a>
-  <a href="mailto:mkone9489@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/mariam-kone-bb2162287" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:mkone9489@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
 
 ### 💡 About Me
 
-- 🎓 **Master’s student in Software Development for Information Systems** at **Université de Bretagne Occidentale (UBO)**, France  
+- 🎓 **Master's student in Software Development for Information Systems** at **Université de Bretagne Occidentale (UBO)**, France  
 - 💻 **Engineering Degree in Computer Science** at **ENSA de Kénitra**, Morocco  
 - 🤖 Passionate about **AI integration**, **Cloud technologies**, and **software architecture**
 - 🧩 Experienced in **Java, Python, React, and Machine Learning**
@@ -32,7 +42,7 @@
 
 - 🌩️ Building **cloud-based intelligent systems**
 - 🧠 Advancing my skills in **Machine Learning and NLP**
-- 🧰 Improving **CI/CD automation pipelines** with **Docker,Aensible,jenkis,Gitlab,& GitHub Actions**
+- 🧰 Improving **CI/CD automation pipelines** with **Docker, Ansible, Jenkins, GitLab & GitHub Actions**
 - 🔍 Exploring **data visualization and fraud detection** projects
 
 ---
@@ -90,18 +100,73 @@
 
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
-| [**Fraud Detection System**](https://github.com/Mariam123-Git/FraudDetection) | Anomaly detection on 284K+ transactions using Machine Learning | Python, Scikit-learn, Pandas |
-| [**Event Management App**](https://github.com/Mariam123-Git/application) | Full-stack management system with modular design patterns | Java, MySQL |
-| [**2D Game Engine**](https://github.com/Mariam123-Git/Jeu_Mario) | Object-oriented game engine with collision and level management | Java |
-| [**Web App (React)**](https://github.com/Mariam123-Git/mon-projet) | Responsive SPA with advanced filtering and reusable components | React, JavaScript |
+| [**🔍 Fraud Detection System**](https://github.com/Mariam123-Git/FraudDetection) | Anomaly detection on 284K+ transactions using Machine Learning | Python, Scikit-learn, Pandas |
+| [**📅 Event Management App**](https://github.com/Mariam123-Git/application) | Full-stack management system with modular design patterns | Java, MySQL |
+| [**🎮 2D Game Engine**](https://github.com/Mariam123-Git/Jeu_Mario) | Object-oriented game engine with collision and level management | Java |
+| [**🌐 Web App (React)**](https://github.com/Mariam123-Git/mon-projet) | Responsive SPA with advanced filtering and reusable components | React, JavaScript |
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Statistics
+
+<br/>
+
+<!-- 🏆 Trophies 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Mariam123-Git&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="Mariam Koné trophies" />
+</p>
+
+<br/>-->
+
+<!-- 📈 Stats + Languages side by side -->
+<p align="center">
+  <img height="180em"
+       src="https://github-readme-stats.vercel.app/api?username=Mariam123-Git&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"
+       alt="Mariam's GitHub Stats" />
+  &nbsp;&nbsp;
+  <img height="180em"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mariam123-Git&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+       alt="Top Languages" />
+</p>
+
+<br/>
+
+<!-- 🔥 Streak Stats -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Mariam123-Git&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=700"
+       alt="GitHub Streak" />
+</p>
+
+<br/>
+
+<!-- 📉 Activity Graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mariam123-Git&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph"
+       alt="Activity Graph" width="95%" />
+</p>
+
+<br/>
+
+<!-- 📦 Contribution Summary -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mariam123-Git&theme=tokyonight"
+       alt="Profile Summary" width="95%" />
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mariam123-Git&show_icons=true&theme=tokyonight" alt="Mariam Koné GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mariam123-Git&layout=compact&theme=tokyonight" alt="Top Langs"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mariam123-Git&theme=tokyonight"
+       alt="Repos per Language" />
+  &nbsp;&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mariam123-Git&theme=tokyonight"
+       alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mariam123-Git&theme=tokyonight"
+       alt="Stats Card" />
+  &nbsp;&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mariam123-Git&theme=tokyonight&utcOffset=1"
+       alt="Productive Time" />
 </p>
 
 ---
@@ -111,10 +176,13 @@
 - 👩🏽‍🏫 Ambassador at **10000 Codeurs Mali**
 - 💙 Volunteering at **Afaaq Humanitarian Club**
 - 🚀 Technology watch: **AI, Cloud**
+
 ---
 
-> ✨ *“Building smart, scalable, and meaningful software — one project at a time.”*  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+</p>
 
-<!---
-Mariam123-Git/Mariam123-Git is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
---->
+<p align="center">
+  ✨ <em>"Building smart, scalable, and meaningful software — one project at a time."</em>
+</p>
