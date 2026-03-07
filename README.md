@@ -106,7 +106,7 @@
 
 ### 🧠 Technical Skills
 
-<details>
+<details open>
 <summary>💻 Programming & Frameworks</summary>
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
@@ -120,7 +120,7 @@
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 </details>
 
-<details>
+<details open>
 <summary>🧩 AI & Data Science</summary>
 
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
@@ -130,7 +130,7 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 </details>
 
-<details>
+<details open>
 <summary>🛢️ Databases & Cloud</summary>
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -140,7 +140,7 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-A020F0?style=flat-square&logo=github-actions&logoColor=white)
 </details>
 
-<details>
+<details open>
 <summary>🧰 Tools & Environments</summary>
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
