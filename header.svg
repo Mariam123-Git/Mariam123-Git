@@ -130,7 +130,7 @@
         font-size="16"
         fill="#8b949e"
         opacity="0">
-    🎓 Master's Student @ UBO  ·  🌍 Brest, France
+    👩🏽‍💻 Software Engineer  ·  🎓 Master's Student @ UBO  ·  🌍 Brest, France
     <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze"/>
   </text>
 
