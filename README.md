@@ -29,7 +29,7 @@
 </p>-->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Based+in+Brest%2C+France;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Software+Engineering;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Based+in+Brest%2C+France;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
 </p>
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   🔗 SOCIAL BADGES                          -->
