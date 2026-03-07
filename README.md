@@ -1,8 +1,12 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                      🌊 ANIMATED HEADER                    -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/github-header-banner.png" alt="Mariam Koné Banner" width="100%">
+</p>
+-->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mariam%20KON%C3%89&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%26%20Cloud%20Enthusiast&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/header.svg" alt="Mariam KONÉ Banner" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    👋 GREETING + AVATAR                     -->
@@ -18,12 +22,15 @@
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   🖊️ ANIMATED TYPING                        -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════ 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=👩🏽‍💻+Software+Engineering+Student;🤖+AI+%26+Cloud+Enthusiast;⚡+Full-Stack+Developer;🌍+Based+in+Brest%2C+France;🔍+Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
-</p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
+</p>-->
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Software+Engineering+Student;AI+%26+Cloud+Enthusiast;Full-Stack+Developer;Based+in+Brest%2C+France;Open+to+Internships+%26+Collaboration" alt="Typing SVG" />
+</p>
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   🔗 SOCIAL BADGES                          -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -44,7 +51,7 @@
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--               📍 LOCATION & STATUS BADGES                  -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════
 
 <p align="center">
   <img src="https://img.shields.io/badge/📍%20Brest%2C%20France-informational?style=flat-square&color=2ea44f" />
@@ -53,7 +60,7 @@
   &nbsp;
   <img src="https://img.shields.io/badge/🟢%20Open%20to%20Internship-available?style=flat-square&color=1abc9c" />
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=👁️%20Profile%20Views&color=0e75b6&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=Mariam123-Git&label=👁️%20Profile%20Views&color=0e75b6&style=flat-square" /> -->
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
