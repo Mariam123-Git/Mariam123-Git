@@ -40,10 +40,10 @@
     <img src="https://img.shields.io/badge/LinkedIn-Mariam%20Koné-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:mkone9489@gmail.com">
+<!--  <a href="mailto:mkone9489@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-mkone9489-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
+  </a>       
+  &nbsp; -->
   <a href="https://github.com/Mariam123-Git" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Mariam123--Git-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
@@ -92,7 +92,7 @@
 - 💬 Open to discussions about **AI-driven applications**, **DevOps**, and **aeronautical software systems**
 - 🌍 Based in **Brest, France** | Origin: 🇲🇱 **Mali**
 - 🗣 Langues : Français 🇫🇷, Anglais 🇬🇧, Bambara 🇲🇱
-- 📫 Reach me at: `mkone9489@gmail.com`
+<!--  - 📫 Reach me at: `mkone9489@gmail.com` -->
 
 ---
 
