@@ -176,8 +176,8 @@
 
 <br/>
 
-<!-- 📈 Stats + Languages side by side -->
-<p align="center">
+<!-- 📈 Stats + Languages side by side 
+ <p align="center">
   <img height="180em"
        src="https://github-readme-stats.vercel.app/api?username=Mariam123-Git&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"
        alt="Mariam's GitHub Stats" />
@@ -185,7 +185,7 @@
   <img height="180em"
        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mariam123-Git&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
        alt="Top Languages" />
-</p>
+</p>-->
 
 <br/>
 
