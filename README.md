@@ -1,12 +1,12 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                      🌊 ANIMATED HEADER                    -->
-<!-- ═══════════════════════════════════════════════════════════  -->
+<!-- ═══════════════════════════════════════════════════════════ 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/profile.png" alt="Mariam Koné Banner" width="100%">
 </p>
+ -->
 
-
-<!--<img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/header.svg" alt="Mariam KONÉ Banner" width="100%"/> -->
+<img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/header.svg" alt="Mariam KONÉ Banner" width="100%"/> 
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    👋 GREETING + AVATAR                     -->
