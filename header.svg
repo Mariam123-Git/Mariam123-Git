@@ -1,152 +1,118 @@
-<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#0f2027"/>
-      <stop offset="100%" style="stop-color:#111827"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#0d1424"/>
     </linearGradient>
 
-    <!-- Accent gradient for text -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff"/>
-      <stop offset="50%" style="stop-color:#a78bfa"/>
-      <stop offset="100%" style="stop-color:#34d399"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
 
-    <!-- Glow filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <linearGradient id="pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Soft glow for dots -->
-    <filter id="dotGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#1e2a44" stroke-width="0.6"/>
+    </pattern>
 
-    <!-- Wave clip -->
-    <clipPath id="waveClip">
-      <rect width="900" height="200"/>
-    </clipPath>
+    <clipPath id="frame"><rect width="900" height="220" rx="14"/></clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bgGrad)" rx="0"/>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="220" fill="url(#bg)"/>
+    <rect width="900" height="220" fill="url(#grid)" opacity="0.5"/>
 
-  <!-- Animated wave top -->
-  <g clip-path="url(#waveClip)">
-    <path opacity="0.15" fill="#58a6ff">
-      <animate attributeName="d"
-        dur="6s" repeatCount="indefinite"
-        values="
-          M0,60 C150,90 300,30 450,60 C600,90 750,30 900,60 L900,0 L0,0 Z;
-          M0,40 C150,70 300,10 450,40 C600,70 750,10 900,40 L900,0 L0,0 Z;
-          M0,60 C150,90 300,30 450,60 C600,90 750,30 900,60 L900,0 L0,0 Z
-        "/>
-    </path>
-    <path opacity="0.10" fill="#a78bfa">
-      <animate attributeName="d"
-        dur="8s" repeatCount="indefinite"
-        values="
-          M0,80 C200,50 400,110 600,80 C750,55 850,90 900,70 L900,0 L0,0 Z;
-          M0,55 C200,85 400,25 600,55 C750,80 850,45 900,65 L900,0 L0,0 Z;
-          M0,80 C200,50 400,110 600,80 C750,55 850,90 900,70 L900,0 L0,0 Z
-        "/>
-    </path>
+    <!-- ===== CI/CD pipeline line ===== -->
+    <g transform="translate(0,178)">
+      <line x1="70" y1="0" x2="830" y2="0" stroke="url(#pipe)" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Animated wave bottom -->
-    <path opacity="0.15" fill="#34d399">
-      <animate attributeName="d"
-        dur="7s" repeatCount="indefinite"
-        values="
-          M0,160 C150,140 300,180 450,160 C600,140 750,180 900,160 L900,200 L0,200 Z;
-          M0,175 C150,155 300,195 450,175 C600,155 750,195 900,175 L900,200 L0,200 Z;
-          M0,160 C150,140 300,180 450,160 C600,140 750,180 900,160 L900,200 L0,200 Z
-        "/>
-    </path>
-    <path opacity="0.10" fill="#58a6ff">
-      <animate attributeName="d"
-        dur="9s" repeatCount="indefinite"
-        values="
-          M0,180 C200,160 400,200 600,180 C750,160 850,185 900,170 L900,200 L0,200 Z;
-          M0,165 C200,185 400,145 600,165 C750,185 850,160 900,175 L900,200 L0,200 Z;
-          M0,180 C200,160 400,200 600,180 C750,160 850,185 900,170 L900,200 L0,200 Z
-        "/>
-    </path>
+      <!-- moving packet -->
+      <circle r="4" fill="#22d3ee" filter="url(#soft)">
+        <animate attributeName="cx" values="70;830" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- stages -->
+      <g font-family="'Courier New', monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
+        <g>
+          <circle cx="120" cy="0" r="7" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/>
+          <text x="120" y="20">Code</text>
+        </g>
+        <g>
+          <circle cx="298" cy="0" r="7" fill="#0b1120" stroke="#818cf8" stroke-width="2"/>
+          <text x="298" y="20">Build</text>
+        </g>
+        <g>
+          <circle cx="476" cy="0" r="7" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/>
+          <text x="476" y="20">Test</text>
+        </g>
+        <g>
+          <circle cx="654" cy="0" r="7" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/>
+          <text x="654" y="20">Deploy</text>
+        </g>
+        <g>
+          <circle cx="780" cy="0" r="7" fill="#0b1120" stroke="#34d399" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <text x="780" y="20" fill="#34d399">Monitor</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ===== terminal prompt line ===== -->
+    <text x="70" y="46" font-family="'Courier New', monospace" font-size="13" fill="#64748b">
+      <tspan fill="#34d399">mariam@devops</tspan>:<tspan fill="#38bdf8">~</tspan>$ whoami
+    </text>
+
+    <!-- ===== name ===== -->
+    <text x="70" y="92" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700"
+          fill="url(#accent)" filter="url(#soft)" opacity="0">
+      Mariam KONÉ
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze"/>
+    </text>
+
+    <!-- ===== role ===== -->
+    <text x="72" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#e2e8f0" opacity="0">
+      DevOps / Cloud Engineer
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze"/>
+    </text>
+
+    <!-- ===== tags ===== -->
+    <text x="72" y="145" font-family="'Courier New', monospace" font-size="12.5" fill="#38bdf8" opacity="0">
+      CI/CD · Kubernetes · Docker · Terraform · AWS · IaC
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.2s" fill="freeze"/>
+    </text>
+
+    <!-- ===== availability pill (top right) ===== -->
+    <g transform="translate(690,34)" opacity="0">
+      <rect width="150" height="26" rx="13" fill="#0b1120" stroke="#34d399" stroke-width="1"/>
+      <circle cx="18" cy="13" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#a7f3d0">
+        Open to work
+      </text>
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.5s" fill="freeze"/>
+    </g>
+
+    <!-- ===== location / student (top right, second line) ===== -->
+ 
+
+    <rect x="0.5" y="0.5" width="899" height="219" rx="14" fill="none" stroke="#1e293b" stroke-width="1"/>
   </g>
-
-  <!-- Floating particles -->
-  <circle cx="80" cy="50" r="2" fill="#58a6ff" filter="url(#dotGlow)" opacity="0.8">
-    <animate attributeName="cy" values="50;35;50" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="200" cy="150" r="1.5" fill="#a78bfa" filter="url(#dotGlow)" opacity="0.6">
-    <animate attributeName="cy" values="150;135;150" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="700" cy="40" r="2.5" fill="#34d399" filter="url(#dotGlow)" opacity="0.7">
-    <animate attributeName="cy" values="40;25;40" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="820" cy="160" r="2" fill="#58a6ff" filter="url(#dotGlow)" opacity="0.6">
-    <animate attributeName="cy" values="160;145;160" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="500" cy="25" r="1.8" fill="#a78bfa" filter="url(#dotGlow)" opacity="0.5">
-    <animate attributeName="cy" values="25;12;25" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="350" cy="170" r="1.5" fill="#34d399" filter="url(#dotGlow)" opacity="0.6">
-    <animate attributeName="cy" values="170;158;170" dur="3.8s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Main title: Hi 👋 I'm Mariam KONÉ -->
-  <text x="450" y="90"
-        text-anchor="middle"
-        font-family="'Segoe UI', sans-serif"
-        font-size="38"
-        font-weight="700"
-        fill="url(#textGrad)"
-        filter="url(#glow)"
-        opacity="0">
-    Hi 👋 I'm Mariam KONÉ
-    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.2s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate"
-      values="0 15; 0 0" dur="1.2s" begin="0.2s" fill="freeze"/>
-  </text>
-
-  <!-- Subtitle line 1 -->
-  <text x="450" y="125"
-        text-anchor="middle"
-        font-family="'Segoe UI', sans-serif"
-        font-size="16"
-        fill="#8b949e"
-        opacity="0">
-    👩🏽‍💻 Software Engineer  ·  🎓 Master's Student @ UBO  ·  🌍 Brest, France
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze"/>
-  </text>
-
-  <!-- Subtitle line 2 -->
-  <text x="450" y="153"
-        text-anchor="middle"
-        font-family="'Courier New', monospace"
-        font-size="13"
-        fill="#58a6ff"
-        opacity="0">
-    ⚡ AI · Cloud · Full-Stack · Open to Internship 🟢
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.3s" fill="freeze"/>
-  </text>
-
-  <!-- Animated underline under name -->
-  <line x1="260" y1="97" x2="640" y2="97" stroke="url(#textGrad)" stroke-width="1.5" opacity="0.4" stroke-dasharray="380" stroke-dashoffset="380">
-    <animate attributeName="stroke-dashoffset" values="380;0" dur="1.5s" begin="1s" fill="freeze"/>
-  </line>
 </svg>
