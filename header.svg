@@ -1,9 +1,9 @@
-<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1120"/>
-      <stop offset="55%" stop-color="#111a2e"/>
-      <stop offset="100%" stop-color="#0d1424"/>
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="55%" stop-color="#101a30"/>
+      <stop offset="100%" stop-color="#0b1122"/>
     </linearGradient>
 
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -14,105 +14,161 @@
 
     <linearGradient id="pipe" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
 
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <linearGradient id="flow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="18%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="2.2" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0 L0 0 0 34" fill="none" stroke="#1e2a44" stroke-width="0.6"/>
+    <filter id="glowSm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30" fill="none" stroke="#18233d" stroke-width="0.6"/>
     </pattern>
 
-    <clipPath id="frame"><rect width="900" height="220" rx="14"/></clipPath>
+    <clipPath id="frame"><rect width="900" height="240" rx="16"/></clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="900" height="220" fill="url(#bg)"/>
-    <rect width="900" height="220" fill="url(#grid)" opacity="0.5"/>
+    <rect width="900" height="240" fill="url(#bg)"/>
+    <rect width="900" height="240" fill="url(#grid)" opacity="0.45"/>
+    <rect width="900" height="240" fill="url(#halo)"/>
 
-    <!-- ===== CI/CD pipeline line ===== -->
-    <g transform="translate(0,178)">
-      <line x1="70" y1="0" x2="830" y2="0" stroke="url(#pipe)" stroke-width="4" stroke-linecap="round"/>
+    <!-- scan line -->
+    <rect x="0" y="0" width="900" height="2" fill="#38bdf8" opacity="0.10">
+      <animate attributeName="y" values="0;240;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
 
-      <!-- moving packet -->
-      <circle r="4" fill="#22d3ee" filter="url(#soft)">
-        <animate attributeName="cx" values="70;830" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="0" dur="4s" repeatCount="indefinite"/>
-      </circle>
-
-      <!-- stages -->
-      <g font-family="'Courier New', monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
-        <g>
-          <circle cx="120" cy="0" r="7" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/>
-          <text x="120" y="20">Code</text>
-        </g>
-        <g>
-          <circle cx="298" cy="0" r="7" fill="#0b1120" stroke="#818cf8" stroke-width="2"/>
-          <text x="298" y="20">Build</text>
-        </g>
-        <g>
-          <circle cx="476" cy="0" r="7" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/>
-          <text x="476" y="20">Test</text>
-        </g>
-        <g>
-          <circle cx="654" cy="0" r="7" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/>
-          <text x="654" y="20">Deploy</text>
-        </g>
-        <g>
-          <circle cx="780" cy="0" r="7" fill="#0b1120" stroke="#34d399" stroke-width="2">
-            <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-          </circle>
-          <text x="780" y="20" fill="#34d399">Monitor</text>
-        </g>
-      </g>
-    </g>
-
-    <!-- ===== terminal prompt line ===== -->
-    <text x="70" y="46" font-family="'Courier New', monospace" font-size="13" fill="#64748b">
+    <!-- ===== terminal prompt ===== -->
+    <text x="72" y="48" font-family="'Courier New', monospace" font-size="13" fill="#64748b">
       <tspan fill="#34d399">mariam@devops</tspan>:<tspan fill="#38bdf8">~</tspan>$ whoami
+      <tspan fill="#e2e8f0" opacity="0"> ▊
+        <animate attributeName="opacity" values="0;0;1;0" dur="1.1s" repeatCount="indefinite"/>
+      </tspan>
     </text>
 
     <!-- ===== name ===== -->
-    <text x="70" y="92" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700"
+    <text x="72" y="96" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700"
           fill="url(#accent)" filter="url(#soft)" opacity="0">
       Mariam KONÉ
       <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze"/>
     </text>
 
     <!-- ===== role ===== -->
-    <text x="72" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#e2e8f0" opacity="0">
-      DevOps / Cloud Engineer
+    <text x="74" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#e2e8f0" opacity="0">
+      DevOps &amp; Cloud Engineer
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze"/>
     </text>
-
-    <!-- ===== tags ===== -->
-    <text x="72" y="145" font-family="'Courier New', monospace" font-size="12.5" fill="#38bdf8" opacity="0">
-      CI/CD · Kubernetes · Docker · Terraform · AWS · IaC
-      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.2s" fill="freeze"/>
+    <text x="74" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" fill="#94a3b8" opacity="0">
+      Automate · Ship · Observe · Scale
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1s" fill="freeze"/>
     </text>
 
-    <!-- ===== availability pill (top right) ===== -->
-    <g transform="translate(690,34)" opacity="0">
-      <rect width="150" height="26" rx="13" fill="#0b1120" stroke="#34d399" stroke-width="1"/>
+    <!-- ===== availability pill ===== -->
+    <g transform="translate(688,34)" opacity="0">
+      <rect width="156" height="26" rx="13" fill="#0b1120" stroke="#34d399" stroke-width="1"/>
       <circle cx="18" cy="13" r="4" fill="#34d399">
         <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="32" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#a7f3d0">
-        Open to work
-      </text>
+      <text x="32" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#a7f3d0">Open to Work</text>
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.5s" fill="freeze"/>
     </g>
+   
 
-    <!-- ===== location / student (top right, second line) ===== -->
- 
+    <!-- ===== tech stack logos ===== -->
+    <g transform="translate(690,96)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.9s" fill="freeze"/>
+      <!-- Docker -->
+      <g transform="translate(0,0)">
+        <rect width="34" height="34" rx="8" fill="#0b1120" stroke="#2496ed" stroke-width="1.2"/>
+        <g transform="translate(6,11)" fill="#2496ed">
+          <rect x="0" y="6" width="4" height="4"/><rect x="5" y="6" width="4" height="4"/>
+          <rect x="10" y="6" width="4" height="4"/><rect x="5" y="1" width="4" height="4"/>
+          <rect x="10" y="1" width="4" height="4"/><rect x="15" y="6" width="4" height="4"/>
+          <path d="M-1 11 h22 a5 5 0 0 1 -22 0" fill="#2496ed"/>
+        </g>
+      </g>
+      <!-- Kubernetes -->
+      <g transform="translate(42,0)">
+        <rect width="34" height="34" rx="8" fill="#0b1120" stroke="#326ce5" stroke-width="1.2"/>
+        <g transform="translate(17,17)" stroke="#326ce5" stroke-width="1.6" fill="none">
+          <polygon points="0,-9 8,-3 5,7 -5,7 -8,-3" fill="#326ce5" fill-opacity="0.15"/>
+          <circle r="3.2" fill="#326ce5"/>
+          <line x1="0" y1="-3.2" x2="0" y2="-9"/><line x1="3" y1="1.6" x2="7.6" y2="4.5"/>
+          <line x1="-3" y1="1.6" x2="-7.6" y2="4.5"/>
+        </g>
+      </g>
+      <!-- Terraform -->
+      <g transform="translate(84,0)">
+        <rect width="34" height="34" rx="8" fill="#0b1120" stroke="#7b42bc" stroke-width="1.2"/>
+        <g transform="translate(9,8)" fill="#7b42bc">
+          <polygon points="0,3 6,6.5 6,13.5 0,10"/>
+          <polygon points="7,6.5 13,3 13,10 7,13.5"/>
+          <polygon points="7,-1 13,2.5 13,9.5 7,6"/>
+        </g>
+      </g>
+      <!-- AWS -->
+      <g transform="translate(126,0)">
+        <rect width="34" height="34" rx="8" fill="#0b1120" stroke="#ff9900" stroke-width="1.2"/>
+        <text x="17" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ff9900">aws</text>
+        <path d="M8 24 q9 4 18 0" stroke="#ff9900" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      </g>
+      <!-- Git -->
+      <g transform="translate(168,0)">
+        <rect width="34" height="34" rx="8" fill="#0b1120" stroke="#f05133" stroke-width="1.2"/>
+        <g transform="translate(17,17)" stroke="#f05133" fill="#f05133">
+          <line x1="0" y1="-8" x2="0" y2="8" stroke-width="1.6"/>
+          <line x1="0" y1="0" x2="6" y2="6" stroke-width="1.6"/>
+          <circle cx="0" cy="-8" r="2.4"/><circle cx="0" cy="8" r="2.4"/><circle cx="6" cy="6" r="2.4"/>
+        </g>
+      </g>
+    </g>
 
-    <rect x="0.5" y="0.5" width="899" height="219" rx="14" fill="none" stroke="#1e293b" stroke-width="1"/>
+    <!-- ===== CI/CD pipeline ===== -->
+    <g transform="translate(0,200)">
+      <line x1="72" y1="0" x2="828" y2="0" stroke="url(#pipe)" stroke-width="5" stroke-linecap="round"/>
+      <line x1="72" y1="0" x2="828" y2="0" stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+        <animate attributeName="stroke-dasharray" values="0 756;180 756" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-dashoffset" values="0;-756" dur="2.5s" repeatCount="indefinite"/>
+      </line>
+
+      <circle r="4.5" fill="#22d3ee" filter="url(#glowSm)">
+        <animate attributeName="cx" values="72;828" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+
+      <g font-family="'Courier New', monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
+        <g transform="translate(130,0)"><circle r="8" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/><path d="M-3 0 l2 2 4 -4" stroke="#38bdf8" stroke-width="1.6" fill="none"/><text y="22">Code</text></g>
+        <g transform="translate(305,0)"><circle r="8" fill="#0b1120" stroke="#818cf8" stroke-width="2"/><path d="M-3 0 l2 2 4 -4" stroke="#818cf8" stroke-width="1.6" fill="none"/><text y="22">Build</text></g>
+        <g transform="translate(480,0)"><circle r="8" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/><path d="M-3 0 l2 2 4 -4" stroke="#22d3ee" stroke-width="1.6" fill="none"/><text y="22">Test</text></g>
+        <g transform="translate(655,0)"><circle r="8" fill="#0b1120" stroke="#38bdf8" stroke-width="2"/><path d="M-3 0 l2 2 4 -4" stroke="#38bdf8" stroke-width="1.6" fill="none"/><text y="22">Deploy</text></g>
+        <g transform="translate(788,0)">
+          <circle r="8" fill="#0b1120" stroke="#34d399" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+          <text y="22" fill="#34d399">Monitor</text>
+        </g>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="899" height="239" rx="16" fill="none" stroke="#1e293b" stroke-width="1"/>
   </g>
 </svg>
