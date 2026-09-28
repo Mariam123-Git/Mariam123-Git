@@ -246,8 +246,14 @@ Python automation that monitors a website and restarts the application on failur
   <img src="https://streak-stats.demolab.com?user=Mariam123-Git&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=700" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mariam123-Git&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="95%" />
+
+
+<p align="center"> 
+  <picture> 
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" /> 
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" width="95%" /> 
+  </picture> 
 </p>
 
 <p align="center">
