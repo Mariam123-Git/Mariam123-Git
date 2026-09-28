@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Mariam123-Git/Mariam123-Git/main/header.svg" alt="Mariam Koné – Junior DevOps / Cloud Engineer" width="100%"/>
 
 <h1 align="center">Mariam Koné</h1>
-<h3 align="center">Junior DevOps / Cloud Engineer</h3>
+<h3 align="center">DevOps / Cloud Engineer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=DevOps+%26+Cloud+Engineer;AWS+%26+Infrastructure+as+Code;Kubernetes+%26+Cloud+Native;CI%2FCD+Automation;Docker+%26+Containerization" alt="DevOps & Cloud Engineer" />
@@ -23,7 +23,7 @@
 
 ## 👩‍💻 About me
 
-I'm a **Junior DevOps / Cloud Engineer** with a software engineering background. I design, automate and operate cloud infrastructure, with hands-on experience in **AWS, Kubernetes (EKS), Terraform, Docker, Jenkins and Ansible**.
+I'm a ** DevOps / Cloud Engineer** with a software engineering background. I design, automate and operate cloud infrastructure, with hands-on experience in **AWS, Kubernetes (EKS), Terraform, Docker, Jenkins and Ansible**.
 
 - **Education:** Engineering degree in Computer Science (ENSA Kénitra, Morocco) and Master's degree in Information Systems Development (Université de Bretagne Occidentale, France)
 - **Experience:** Internship at **Orange** on a Java / Spring Boot back-end project
