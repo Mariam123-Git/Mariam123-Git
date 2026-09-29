@@ -23,14 +23,18 @@
 
 ## 👩‍💻 About me
 
-I'm a ** DevOps / Cloud Engineer** with a software engineering background. I design, automate and operate cloud infrastructure, with hands-on experience in **AWS, Kubernetes (EKS), Terraform, Docker, Jenkins and Ansible**.
+I'm a **DevOps / Cloud Engineer** focused on **cloud infrastructure, automation and CI/CD**. I build and optimize deployment workflows, automate infrastructure and work with containerized applications across **AWS, Kubernetes (EKS), Terraform, Docker, Jenkins and Ansible**.
 
-- **Education:** Engineering degree in Computer Science (ENSA Kénitra, Morocco) and Master's degree in Information Systems Development (Université de Bretagne Occidentale, France)
-- **Experience:** Internship at **Orange** on a Java / Spring Boot back-end project
-- **Certifications:** HashiCorp Terraform Associate · Kubernetes and Cloud Native Associate (KCNA) · Certified DevOps Practitioner
-- **Community:** Ambassador at 10000 Codeurs Mali
-- **Looking for:** a junior **DevOps, Cloud, DevSecOps, SRE or Infrastructure** position (CDI) in France
-- **Languages:** French · English · Bambara
+* **Cloud & Infrastructure:** AWS, Terraform, Kubernetes/EKS, Linux, Infrastructure as Code
+* **CI/CD & Automation:** Jenkins, GitLab CI/CD, pipeline automation, deployment optimization and workflow improvement
+* **Containers & Configuration:** Docker, Helm, Ansible, Kubernetes
+* **Experience:** Internship at **Orange** working on a Java / Spring Boot back-end project and event-driven service flows
+* **Education:** Engineering degree in Computer Science (ENSA Kénitra, Morocco) and Master's degree in Information Systems Development (Université de Bretagne Occidentale, France)
+* **Certifications:** HashiCorp Terraform Associate · Kubernetes and Cloud Native Associate (KCNA) · Certified DevOps Practitioner
+* **Community:** Ambassador at 10 000 Codeurs Mali
+* **Looking for:** a **DevOps, Cloud, DevSecOps, SRE or Infrastructure** position (CDI) in France
+* **Languages:** French · English · Bambara
+
 
 ---
 
