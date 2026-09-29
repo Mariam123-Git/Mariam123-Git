@@ -213,9 +213,19 @@ Python automation that monitors a website and restarts the application on failur
 </tr>
 </table>
 
----
+## 📊 GitHub statistics
 
-## 🎓 Certifications
+<p align="center">
+  <img height="170" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="170" src="./profile/top-langs.svg" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Mariam123-Git&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=700" alt="GitHub streak" />
+</p>
+
+
+<!--  ## 🎓 Certifications
 
 <p align="center">
   <img src="https://img.shields.io/badge/HashiCorp%20Certified-Terraform%20Associate-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="HashiCorp Certified: Terraform Associate"/>
@@ -262,10 +272,9 @@ Python automation that monitors a website and restarts the application on failur
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mariam123-Git&theme=tokyonight" alt="Profile summary" width="95%" />
-</p>
+</p> -->
 
 ---
-
 ## 🤝 Community
 
 - **Ambassador** at 10000 Codeurs Mali
